@@ -16,8 +16,8 @@ apps:
 
 parts:
   cpp-depenencies:
-    source: .
-    # source: https://github.com/tomtom-international/cpp-dependencies.git
+    # source: .
+    source: https://github.com/tomtom-international/cpp-dependencies.git
     plugin: cmake
     build-packages:
       - build-essential
